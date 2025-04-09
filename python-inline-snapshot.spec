@@ -1,6 +1,7 @@
 %define module inline-snapshot
 %define oname inline_snapshot
-%bcond_without test
+# disable test for abf
+%bcond_with test
 
 Name:		python-inline-snapshot
 Version:	0.22.0
